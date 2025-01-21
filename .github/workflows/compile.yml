@@ -13,7 +13,7 @@ jobs:
       - name: Checkout cv.typ template repository
         uses: actions/checkout@v4
         with:
-          repository: jskherman/cv.typ
+          repository: fqianh2004/personal
           path: template
       - name: Compile Typst files
         uses: jskherman/typst-action@main
